@@ -1,11 +1,11 @@
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
 <style>
 
-@media screen and
-(min-device-width: 100%) and
+@media only screen and
+(min-device-width: 720 px) and
 (max-device-width: 100%) {
 #id(body)
 }
@@ -24,9 +24,24 @@
 	
 }
 
+.edu{
+	border: 1px dotted;
+	
+}
+
+.lang{
+	border: 1px dotted;
+	
+}
+
+.skill{
+	border: 1px dotted;
+	
+}
+
 img {
 	border-radius: 50%;
-	//filter: drop-shadow(0px 3px 30px rgba(0, 0, 0, .6)); shadowing the image
+	filter: drop-shadow(0px 3px 30px rgba(0, 0, 0, .6)); //shadowing the image
 }
 
 h2 {
@@ -39,6 +54,7 @@ h2 {
 <script type="text/javascript">
 
 function method() {
+alert("Hi");
 alert("Jay Thakker here");
 }
 
@@ -62,6 +78,8 @@ alert("Jay Thakker here");
 <a href="https://www.instagram.com/thakkerjay997/"><img src="i.jpg" alt="instagram" width="25px"></a>
 
 <a href="https://www.twitter.com/thakkerjay997"><img src="t.jpg" alt="twitter" width="25px"></a>
+
+<a href="https://github.com/Passionate-coder997"><img src="git.png" alt="git profile" width="25px"></a>
 
 </center>
 
@@ -88,22 +106,20 @@ alert("Jay Thakker here");
 
 </ul>
 </table>
+
 <br>
 <br>
 <br>
 
-<center>
-<table class="main">
+<div class="main">
 
-<tr id="intro">
+<div class="intro">
+<h2><center>Introduction:</h2></center>
+I have a very good knowledge of Digital Marketing, Programming and computers, I am studying Bachelor's of Computer Education(B.C.A) and throughout my Graduation I had learned many programming languages like c, c++, java, python and many more PL's.
+I like to learn new technologies everyday. I am very good at front-end development in web designing. And I am still enhancing my knowledge by learning new Programming Languages everyday.
+</div>
 
-<td>
-<h2>Introduction:</h2>I have a very good knowledge of Digital Marketing, Programming and computers,<br>I am studying Bachelor's of Computer Education and throughout my Graduation<br>I had learned many programming languages like c, c++, java and many more PL's.<br>
-I am very good at front-end development in web designing.<br> I am still enhancing my knowledge by learning new <br>Programming Languages everyday.
-</td>
-
-
-<td>
+<div class="edu">
 <h2>Education:</h2>
 <ul>
 <li>I had compeleted my Secondary school in 2013.
@@ -112,13 +128,12 @@ I am very good at front-end development in web designing.<br> I am still enhanci
 <br><br>
 <li>I compeleted my studies till 12<sup>th</sup> from Welspun Vidya Mandir<br>with commerce stream and now I am compeleting my Graduation in B.C.A<br>from Distance Learning University.<br>
 </ul>
-</td>
-</tr>
+</div>
 
 
 
-<tr>
-<td><h2>Qualification</h2>
+<div class="qualify">
+<h2>Qualification</h2>
 <ul>
 <li>I had compelete my 11<sup>th</sup> & 12<sup>th</sup>commerce studies with Information Technology background.
 <br><br>
@@ -126,24 +141,26 @@ I am very good at front-end development in web designing.<br> I am still enhanci
 <br><br>
 <li>Now I am compeleting my Bachelor of Computer Education
 </ul>
-</td>
+</div>
 
-<ul>
-<td><h2>Languages:</h2>
+<div class="lang">
+
+<h2>Languages:</h2>
 I know:
+<ul>
 <li>Hindi
 <br><br>
 <li>English
 <br><br>
 <li>Gujarati
 </ul>
-</td>
-</tr>
-
-<tr id="lang">
+</div>
 
 
-<td><h2>Skills:</h2>
+<div class="skill">
+
+
+<h2>Skills:</h2>
 <ul>
 <li>HTML<sub>(Very much comfortable)</sub>
 <br><br>
@@ -164,8 +181,9 @@ I know:
 <li>Python<sub>(Very much comfortable and knows tkinter, pyqt5 and also learning new frameworks)</sub>
 
 </ul>
-</td>
-<td><h2>My Projects:</h2>
+</div>
+
+<div class="project"><h2>My Projects:</h2>
 <ul>
 <li><a href="https://github.com/Passionate-coder997/HTML-CSS-Javascript">My HTML/CSS/Javascript Projects</a>
 <li><a href="https://github.com/Passionate-coder997/Java">Java Mini Projects</a>
@@ -174,9 +192,9 @@ I know:
 <li><a href="https://github.com/Passionate-coder997/FlapPy-BirD">Flappy Bird Project</a>
 <li><a href="https://github.com/Passionate-coder997/Python">Other Python Projects</a>
 </ul>
-</td>
-</tr>
-</table>
-</center>
+</div>
+
+</div>
+</div>
 </body>
 </html>
