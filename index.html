@@ -4,12 +4,33 @@
 
 <style>
 
-@media only screen and
-(min-device-width: 720 px) and
-(max-device-width: 100%) {
-#id(body)
+body {
+	padding:4.5em;
+	margin:0;
+	background: #cdda85d3;
+	background: linear-gradient(90deg, #bbc96e 0, #62c78f 55%);
 }
 
+.effect {
+	background: rgba(255, 255, 255, .2);
+	backdrop-filter: blur(10px);
+        padding: 1.5em;
+ 	-webkit-backdrop-filter: blur(50px);
+}
+
+h3 {
+	color: blue;
+	text-shadow: 1px 1px #696969;
+}
+
+.html,
+.java,
+.notepad,
+.utube,
+.game,
+.other {
+	text-decoration:none;
+}
 .main {
 	border: 1px dotted;
 	width: 100%;
@@ -66,10 +87,7 @@ swal({
 
 </head>
 <body>
-<center>
-
-</center>
-
+<div class="effect">
 <center>
 <div class="circle">
 <img src="badge.png" alt="My Photo" style="width: 200px;" onmouseover="method()">
@@ -188,16 +206,17 @@ I know:
 </div>
 
 <div class="project"><h2>My Projects:</h2>
-<ul>
-<li><a href="https://github.com/Passionate-coder997/HTML-CSS-Javascript">My HTML/CSS/Javascript Projects</a>
-<li><a href="https://github.com/Passionate-coder997/Java">Java Mini Projects</a>
-<li><a href="https://github.com/Passionate-coder997/My_Notepad">Notepad with Python</a>
-<li><a href="https://github.com/Passionate-coder997/YoutUbe-DoWnloDer">Download Youtube videos with Python</a>
-<li><a href="https://github.com/Passionate-coder997/FlapPy-BirD">Flappy Bird Project</a>
-<li><a href="https://github.com/Passionate-coder997/Python">Other Python Projects</a>
+<ul type = none>
+	<li><a href="https://github.com/Passionate-coder997/HTML-CSS-Javascript" class="html"><h3>My HTML/CSS/JS Projects</h3></a>
+	<li><a href="https://github.com/Passionate-coder997/Java" class="java"><h3>Java Mini Projects</h3></a>
+	<li><a href="https://github.com/Passionate-coder997/My_Notepad" class="notepad"><h3>Notepad with Python</h3></a>
+	<li><a href="https://github.com/Passionate-coder997/YoutUbe-DoWnloDer" class="utube"><h3>Download Youtube videos with Python</h3></a>
+	<li><a href="https://github.com/Passionate-coder997/FlapPy-BirD" class="game"><h3>Flappy Bird Project</h3></a>
+	<li><a href="https://github.com/Passionate-coder997/Python" class="other"><h3>Other Python Projects</h3></a>
 </ul>
 </div>
 
+</div>
 </div>
 </div>
 </body>
